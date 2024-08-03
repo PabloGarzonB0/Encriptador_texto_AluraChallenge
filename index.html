@@ -15,60 +15,60 @@
     <!-- ENCABEZADO DE PAGINA WEB -->
     <header>
         <div class="logo_principal">
-        <a href="#">
-            <img src="imagenes/logo_ALURA_Color.png"  alt="logo Alura" class="logo">
-        </a>
-        <p class="Texto_logo"> Alura + Oracle Challenge</p>
-    </div>
-        <div class="encriptador_contenedor">
-            <button type="submit"  id="codifica" class="btn_encriptar">Encriptar</button>
-            <button type="submit"  id="decodifica" class="btn_encriptar">Desencriptar</button>
-            <button type="submit"  id="limpiar" class="btn_encriptar">Borrar</button>
+            <a href="#">
+                <img src="imagenes/logo_ALURA_Color.png" alt="logo Alura" class="logo">
+            </a>
+            <p class="Texto_logo"> Alura + Oracle Challenge</p>
         </div>
-    <!-- PIE DE PAGINA -->
-    <footer>
-        <p class="copyright">&copy; copyright 2024 - text encriptor By  <br>&#x2699;&#xfe0f Pablo Cesar Garzon</p>
-        <a href="#">
-            <img src="imagenes/Iconos_Contacto/linkedin.png" alt="logo linkedin" width="40px" class="enlace">
-        </a>
-        <a href="#">
-            <img src="imagenes/Iconos_Contacto/github.png" alt="logo github" width="40px" class="enlace">
-        </a>
-    </footer>
+        <div class="encriptador_contenedor">
+            <button type="submit" id="codifica" class="btn_encriptar">Encriptar</button>
+            <button type="submit" id="decodifica" class="btn_encriptar">Desencriptar</button>
+            <button type="submit" id="limpiar" class="btn_encriptar">Borrar</button>
+        </div>
+        <!-- PIE DE PAGINA -->
+        <footer>
+            <p class="copyright">&copy; copyright 2024 - text encriptor By <br>&#x2699;&#xfe0f Pablo Cesar Garzon</p>
+            <a href="https://www.linkedin.com/in/pablo-cesar-garzon-benitez-60351721a/">
+                <img src="imagenes/Iconos_Contacto/linkedin.png" alt="logo linkedin" width="40px" class="enlace">
+            </a>
+            <a href="https://github.com/PabloGarzonB0">
+                <img src="imagenes/Iconos_Contacto/github.png" alt="logo github" width="40px" class="enlace">
+            </a>
+        </footer>
     </header>
     <!-- CONTENIDO PRINCIPAL PAGINA WEB -->
     <main>
 
-    <section class="encriptador">
-        <div class="Entrada_principal">
-            <div class="Imagen_Encriptador">
-                <div class="circulo_contenedor">
-                <img src="imagenes/encriptado.png" alt="Imagen_titulo">
+        <section class="encriptador">
+            <div class="Entrada_principal">
+                <div class="Imagen_Encriptador">
+                    <div class="circulo_contenedor">
+                        <img src="imagenes/encriptado.png" alt="Imagen_titulo">
+                    </div>
+                    <p class="titulo_principal">Encriptador de Texto</p>
                 </div>
-                <p class="titulo_principal">Encriptador de Texto</p>
+                <textarea class="encriptar" placeholder="Ingrese el texto aqui" rows="10" cols="50"></textarea>
+                <div class="rules">
+                    <img src="imagenes/tarjeta.png" width="30px" alt="reglas de juego" class="img_reglas">
+                    <p class="texto_aviso">Solo letras minusculas y sin acentos</p><br>
+                    <ul>
+                    </ul>
+                </div>
             </div>
-        <textarea class="encriptar" placeholder="Ingrese el texto aqui" rows="10" cols="50"></textarea>
-        <div class="rules">
-            <img src="imagenes/tarjeta.png" width="30px" alt="reglas de juego" class="img_reglas">
-            <p class="texto_aviso">Solo letras minusculas y sin acentos</p><br>
-            <ul>
-            </ul>
-        </div>
-    </div>
-        
-    </section>
-    <section class="Tarjeta">
-        <div class="tarjeta_contenedor">
-            <img src="imagenes/archivo-encriptado 1.png" alt="Imagen Encriptar" class="img_archivo">
-            <p class="texto_1">Ningun mensaje fue encontrado
-            </p>
-            <p class="texto_2">Ingresa el texto que deseas encriptar o desencriptar</p>
-        </div>
-        <textarea type="mensaje"  class="evaluar" readonly></textarea>
-        <button type="submit" class="btn_copiar">Copiar Texto</button>
-        
-    </section>
-</main>
+
+        </section>
+        <section class="Tarjeta">
+            <div class="tarjeta_contenedor">
+                <img src="imagenes/archivo-encriptado 1.png" alt="Imagen Encriptar" class="img_archivo">
+                <p class="texto_1">Ningun mensaje fue encontrado
+                </p>
+                <p class="texto_2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn_copiar">Copiar Texto</button>
+
+        </section>
+    </main>
 
     <script src="app.js"></script>
 </body>
