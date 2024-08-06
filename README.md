@@ -1,13 +1,16 @@
-﻿# Encriptador de Texto &#128195;
+﻿# &#9876; Encriptador de Texto 
+   <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
+   </p>
 
 ![Interfaz_principal](imagenes/InterfazWeb.png) 
 Este es un encriptador de texto simple creado con HTML, CSS y JavaScript. El proyecto encripta y desencripta texto utilizando las siguientes llaves de encriptación:
 
-- La letra "e" se convierte en "enter"
-- La letra "i" se convierte en "imes"
-- La letra "a" se convierte en "ai"
-- La letra "o" se convierte en "ober"
-- La letra "u" se convierte en "ufat"
+- La letra `"e"` se convierte en "enter"
+- La letra `"i"` se convierte en "imes"
+- La letra `"a"` se convierte en "ai"
+- La letra `"o"` se convierte en "ober"
+- La letra `"u"` se convierte en "ufat"
 
 ## &#128205; Características
 
